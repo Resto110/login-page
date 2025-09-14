@@ -6,9 +6,6 @@ form.addEventListener("submit", function (e) {
     const user = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value.trim();
 
-    console.log("Username:", user);
-    console.log("Password:", password);
-
     if (user === "") {
         alert("Please enter username.");
         return;

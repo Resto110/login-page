@@ -1,6 +1,67 @@
+body {
+    background-color: aquamarine;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#username {
+    padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
+#password {
+    padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
 #button {
-    background-color: grey;
-    color: white;
-    font-size: 48px;
-    border-radius: 10px;
+    background-color: #111827;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: black;
 }
